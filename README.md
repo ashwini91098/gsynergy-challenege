@@ -16,7 +16,7 @@ policy to be attached - AmazonS3ReadOnlyAccess
 Role Name-RedshiftS3Role.
 🔹 Get the Role ARN - key identifier for this role
 
-Step 4: Create a Redshift Cluster
+Step 4: Create a Redshift Cluster -further connected in query editor
 Go to AWS Console → Redshift → Clusters.
 
 Click Create Cluster-my-redshift-cluster.
