@@ -194,7 +194,7 @@ SELECT * FROM stl_load_errors ORDER BY starttime DESC LIMIT 5;
 
 
 
-**task 2.c in attached challenge
+--task 2.c in attached challenge
 CREATE TABLE IF NOT EXISTS mview_weekly_sales (
     pos_site_id INT NOT NULL,
     sku_id INT NOT NULL,
@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS mview_weekly_sales (
     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-**initial insert
+--initial insert
 INSERT INTO mview_weekly_sales (
     pos_site_id, sku_id, fsclwk_id, price_substate_id, type, 
     total_sales_units, total_sales_dollars, total_discount_dollars
@@ -234,7 +234,7 @@ GROUP BY
     ft.pos_site_id, ft.sku_id, hc.fsclwk_id, ft.price_substate_id, ft.type;
 
 
-**task 2.d in challenge pdf - can be scheduled in redshift shown in video recording
+--task 2.d in challenge pdf - can be scheduled in redshift shown in video recording
 --
 BEGIN;
 
