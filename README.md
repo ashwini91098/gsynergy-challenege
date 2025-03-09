@@ -25,6 +25,7 @@ Click Create Cluster.
 🔹 Get the Redshift Endpoint: key identifier for this cluster
 
 🔹 transform data before loading raw data
+
 Step 5: Create an AWS Glue Crawler to Infer Schema
 Go to AWS Glue Console → Click Crawlers.
 Click Add Crawler-my-s3-crawler.
